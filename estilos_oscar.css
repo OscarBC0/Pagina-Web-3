@@ -66,3 +66,20 @@ li.dropdown {
 
 
 /*fin menu*/
+
+
+.iprincipal{
+	margin:30px 170px 0px 170px;
+}
+
+.titulo{
+	color:white;
+	background-color:green;
+	text-align:center;
+	font-size:35px;
+	margin:0px 194px 0px 170px;
+	padding:20px 10px 20px 10px;
+	border-right:solid black 2px;
+	border-bottom:solid black 2px;
+	border-left:solid black 2px;
+}
