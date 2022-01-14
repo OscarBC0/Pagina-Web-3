@@ -1,4 +1,3 @@
-
 /* Hoja de estilos para las páginas de Gonzalo */
 
 
@@ -7,34 +6,37 @@
 #main_table {
 	margin:auto;
 	text-align:center;
-	background-color:lightgray;
-	color:blue;
+	color:black;
 }
 
 #main_title {
 	margin:auto;
 	color:white;
-	background-color:orange;
+	background-color:#E67F3E;
 	text-align:center;
 	width:400px;
 	border:2px solid lightblue;
 	font-family:sans-serif;
-	margin-bottom:10px;
+	margin-bottom:100px;
 	font-size:300%;
-	margin-top:20px;
 }
 
 .title {
-	color:#03b1fc;
+	color:white;
 	font-size:300%;
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-weight:bold;
 	padding-top:5px;
-	background-color:#7e9131;
+	background-color:#FFA732;
+	outline: 2px solid #535cac;
 }
 
 .text {
-	font-weight:bold;
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size:150%;
+}
+
+.text_title {
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size:200%;
 }
