@@ -7,6 +7,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: orange;
+  border: 2px solid #535cac;
 }
 
 li {
@@ -22,7 +23,7 @@ li a, .dropbtn {
   text-decoration: none;
   background-color:orange;
   border:0px;
-  width:200px;
+  width:300px;
   font-weight:bold;
 }
 
@@ -79,12 +80,14 @@ li.dropdown {
 	background-color:#E67F3E;
 	text-align:center;
 	width:400px;
-	border:2px solid lightblue;
+	border: 2px solid #535cac;
 	font-family:sans-serif;
 	margin-bottom:100px;
 	font-size:300%;
 	margin-top:30px;
 }
+
+/* Información/Actividades */
 
 .title {
 	color:white;
@@ -93,7 +96,7 @@ li.dropdown {
 	font-weight:bold;
 	padding-top:5px;
 	background-color:#FFA732;
-	outline: 2px solid #535cac;
+	border: 2px solid #535cac;
 }
 
 .text {
@@ -108,4 +111,20 @@ li.dropdown {
 
 .image_spacing {
 	margin:5px;
+}
+
+/* Alojamientos */
+
+.alojamientos {
+	border-collapse:collapse;
+	width:100%;
+}
+.alojamientos th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.alojamientos tr:hover {
+	background-color:#FFA732;
 }
