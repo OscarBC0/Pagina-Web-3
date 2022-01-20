@@ -87,6 +87,16 @@ li.dropdown {
 	margin-top:30px;
 }
 
+img:hover {
+	opacity:0.8;
+}
+
+#map {
+	border:1px solid black;
+	width:80%;
+	height:80%;
+}
+
 /* Información/Actividades */
 
 .title {
@@ -127,4 +137,7 @@ li.dropdown {
 
 .alojamientos tr:hover {
 	background-color:#FFA732;
+}
+#estrellas {
+	color:yellow;
 }
