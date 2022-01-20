@@ -1,11 +1,11 @@
-/*menu*/
-
+		/* Inicio Navegation bar*/
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: orange;
+ outline: 2px solid #535cac;
 }
 
 li {
@@ -21,8 +21,9 @@ li a, .dropbtn {
   text-decoration: none;
   background-color:orange;
   border:0px;
-  width:200px;
+  width:300px;
   font-weight:bold;
+  
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -32,7 +33,6 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown {
   display: inline-block;
-  
 }
 
 .dropdown-content {
@@ -65,9 +65,6 @@ li.dropdown {
 }
 
 
-/*fin menu*/
-
-
 .iprincipal{
 	margin:30px 170px 0px 170px;
 }
@@ -96,21 +93,21 @@ li.dropdown {
 .paistitulo{
 	text-align:center;
 	font-size:35px;
-	color:black;
-	background-color:orange;
-	border:solid black 2px;
+	color:white;
+	background-color:#E67F3E;
 	font-weight:bold;
 	padding:5px;
+	outline: 2px solid #535cac;
 }
 	
 .tablatitulo{
-	border-bottom:solid black 1px;
+	border-bottom:2px solid #535cac;
 	text-align:center;
 	font-size:30px;
-	color:black;
-	background-color:yellow;
+	color:white;
+	background-color:#FFA732;
 	padding:0px 530px 0px 530px;
-
+	
 }
 
 .tablainterior{
@@ -121,4 +118,26 @@ li.dropdown {
 	padding:40px 20px 40px 20px;
 	
 	
+}
+
+.tablapais{
+	top:;
+	left:;
+	font-size:30px;
+	
+}
+
+
+.imgpais{
+	width:400px;
+	height:300px;
+}
+
+.tablasubtitulo{
+	border-bottom:2px solid #535cac;
+	text-align:center;
+	font-size:30px;
+	color:white;
+	background-color:#FFA732;
+	padding:0px 530px 0px 530px;
 }
