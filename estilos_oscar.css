@@ -121,9 +121,7 @@ li.dropdown {
 }
 
 .tablapais{
-	top:;
-	left:;
-	font-size:30px;
+	font-size:40px;
 	
 }
 
@@ -140,4 +138,15 @@ li.dropdown {
 	color:white;
 	background-color:#FFA732;
 	padding:0px 530px 0px 530px;
+}
+/*redes*/
+
+.piepagina{
+	background-color:black;
+	padding:30px;
+	margin:0px 0px 0px 0px;
+	color:white;
+	text-align:center;
+	font-size:30px;
+	width:100%;
 }
