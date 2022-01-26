@@ -106,6 +106,18 @@ li.dropdown {
 	font-size:200%;
 	padding:20px;
 }
+.image:hover{
+	color:grey;
+}
 img:hover{
-	opacity;0.8;
+	opacity: 0.8;
+}
+.restaurantes{
+	border-collapse:collapse;
+	width:100%;
+}
+.restaurantes th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
 }
