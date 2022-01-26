@@ -66,15 +66,21 @@ li.dropdown {
 
 
 .iprincipal{
-	margin:30px 170px 0px 170px;
+	margin:30px 0px 0px 0px;
+	position:relative;
 }
+
+.flechas{
+	position:absolute;
+}
+
 
 .titulo{
 	color:white;
 	background-color:green;
 	text-align:center;
 	font-size:35px;
-	margin:0px 177px 0px 170px;
+	margin:0px 243px 0px 244px;
 	padding:20px 10px 20px 10px;
 	border-right:solid black 2px;
 	border-bottom:solid black 2px;
@@ -178,7 +184,7 @@ li.dropdown {
 	width:100%;
 }
 
-.aredes a:hover{
+.aredes img:hover{
 	opacity: 0.5;
 }
 
