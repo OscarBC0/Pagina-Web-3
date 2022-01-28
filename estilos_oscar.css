@@ -1,6 +1,6 @@
 body{
 	background-image:url(https://st.depositphotos.com/3008028/3749/i/600/depositphotos_37497937-stock-photo-abstract-pale-background.jpg);
-	}
+}
 		
 /* Inicio Navegation bar*/
 ul {
@@ -72,7 +72,6 @@ li.dropdown {
 
 .iprincipal{
 	margin:30px 0px 0px 0px;
-	
 }
 
 
@@ -82,13 +81,13 @@ li.dropdown {
 	background-color:#FFA732;
 	text-align:center;
 	font-size:35px;
-	margin:0px 243px 0px 244px;
 	padding:20px 10px 20px 10px;
 	outline:2px solid #535cac;
 	font-weight:bold;
 	text-transform: uppercase;
 	font-family:sans-serif;
 	margin:auto;
+	width:63.25%;
 	
 }
 .descripcion{
@@ -109,6 +108,7 @@ li.dropdown {
 	outline: 2px solid #535cac;
 	margin-bottom:30px;
 	width:90%;
+	font-family:sans-serif;
 	
 }
 	
@@ -119,6 +119,8 @@ li.dropdown {
 	color:white;
 	background-color:#FFA732;
 	padding:0px 530px 0px 530px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-weight:bold;
 	
 
 }
@@ -129,6 +131,8 @@ li.dropdown {
 	font-size:25px;
 	color:black;
 	padding:40px 20px 40px 20px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-weight:bold;
 	
 	
 }
