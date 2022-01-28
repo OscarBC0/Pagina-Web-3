@@ -124,6 +124,7 @@ img:hover{
 	text-align: left;
 	border-bottom: 1px solid #ddd;
 }
-.link{
-	text-decoration:non;
+a {
+	text-decoration:none;
 }
+
