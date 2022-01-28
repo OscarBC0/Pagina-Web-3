@@ -1,5 +1,10 @@
 /* Hoja de estilos para las páginas de Gonzalo */
 
+
+body {
+	background-image:url("images/fondo.jpg")
+}
+
 /* Menú */
 ul {
   list-style-type: none;
@@ -146,10 +151,17 @@ img:hover {
 	width:140px;
 	height:80px;
 }
+
+/* Espacios */
+
 #jp_vid {
 	margin-left:25px;
 }
 
 #ch_map {
 	margin-left:150px;
+}
+
+#ch_vid {
+	margin-left:50px;
 }
