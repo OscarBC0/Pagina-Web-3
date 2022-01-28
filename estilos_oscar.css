@@ -1,4 +1,8 @@
-		/* Inicio Navegation bar*/
+body{
+	background-image:url(https://st.depositphotos.com/3008028/3749/i/600/depositphotos_37497937-stock-photo-abstract-pale-background.jpg);
+}
+		
+/* Inicio Navegation bar*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -63,16 +67,14 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+		/* Fin Navegation bar*/
 
 
 .iprincipal{
 	margin:30px 0px 0px 0px;
-	position:relative;
+	
 }
 
-.flechas{
-	position:absolute;
-}
 
 
 .titulo{
@@ -82,11 +84,12 @@ li.dropdown {
 	font-size:35px;
 	margin:0px 243px 0px 244px;
 	padding:20px 10px 20px 10px;
-	border-right:solid black 2px;
-	border-bottom:solid black 2px;
-	border-left:solid black 2px;
+	outline:2px solid #535cac;
 	font-weight:bold;
 	text-transform: uppercase;
+	font-family:sans-serif;
+	margin:auto;
+	
 }
 .descripcion{
 	text-align:center;
@@ -110,12 +113,13 @@ li.dropdown {
 }
 	
 .tablatitulo{
-	border-bottom:2px solid #535cac;
+	border-bottom:1px solid #535cac;
 	text-align:center;
 	font-size:30px;
 	color:white;
 	background-color:#FFA732;
 	padding:0px 530px 0px 530px;
+	
 
 }
 
