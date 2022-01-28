@@ -1,3 +1,6 @@
+body{
+	background-image:url(https://us.123rf.com/450wm/elovich/elovich1702/elovich170200027/71383336-tabl%C3%B3n-de-madera-blanca-de-textura-fondo-r%C3%BAstico-luz.jpg?ver=6)
+	}
 		/* Inicio Navegation bar*/
 ul {
   list-style-type: none;
@@ -74,7 +77,7 @@ li.dropdown {
 	font-family:sans-serif;
 	margin-bottom:100px;
 	font-size:300%;
-	margin-top:30px
+	margin-top:30px;
 }
 #main_table {
 	margin:auto;
@@ -120,4 +123,7 @@ img:hover{
 	padding: 8px;
 	text-align: left;
 	border-bottom: 1px solid #ddd;
+}
+.link{
+	text-decoration:non;
 }
