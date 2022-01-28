@@ -1,13 +1,18 @@
-body{
-	background-image:url(https://st.depositphotos.com/3008028/3749/i/600/depositphotos_37497937-stock-photo-abstract-pale-background.jpg);
-	}
+/* Hoja de estilos para las páginas de Gonzalo */
+
+
+body {
+	background-image:url("images/fondo.jpg")
+}
+
+/* Menú */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: orange;
- outline: 2px solid #535cac;
+  border: 2px solid #535cac;
 }
 
 li {
@@ -25,7 +30,6 @@ li a, .dropbtn {
   border:0px;
   width:300px;
   font-weight:bold;
-  
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -35,6 +39,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown {
   display: inline-block;
+  
 }
 
 .dropdown-content {
@@ -65,68 +70,98 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-		/* Fin Navegation bar*/
-px1{
-	margin:auto;
-	color:white;
-	background-color:#E67F3E;
-	text-align:center;
-	width:400px;
-	outline: 2px solid #535cac;
-	font-family:sans-serif;
-	margin-bottom:100px;
-	font-size:300%;
-	margin-top:30px;
-}
+
+
 #main_table {
 	margin:auto;
 	text-align:center;
 	color:black;
 }
-.titulo {
+
+#main_title {
+	margin:auto;
+	color:white;
+	background-color:#E67F3E;
+	text-align:center;
+	width:400px;
+	border: 2px solid #535cac;
+	font-family:sans-serif;
+	margin-bottom:100px;
+	font-size:300%;
+	margin-top:30px;
+}
+
+img:hover {
+	opacity:0.8;
+}
+
+#map {
+	border:1px solid black;
+	width:80%;
+	height:80%;
+	margin-left:35px;
+}
+
+/* Información/Actividades */
+
+.title {
 	color:white;
 	font-size:300%;
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-weight:bold;
 	padding-top:5px;
 	background-color:#FFA732;
-	outline: 2px solid #535cac;
+	border: 2px solid #535cac;
 }
 
-.texto {
+.text {
 	font-family: "Lucida Console", "Courier New", monospace;
-	font-size:130%;
+	font-size:150%;
 }
 
-.subtitulo {
-	font-family: "Lucida Console", "Courier New", monospace;
-	font-size:200%;
-}
-
-.subsubtitulo{
+.text_title {
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size:200%;
-	padding:20px;
 }
-.image:hover{
-	color:grey;
+
+.image_spacing {
+	margin:5px;
 }
-img:hover{
-	opacity: 0.8;
-}
-.restaurantes{
+
+/* Alojamientos */
+
+.alojamientos {
 	border-collapse:collapse;
 	width:100%;
 }
-.restaurantes th, td {
+.alojamientos th, td {
 	padding: 8px;
 	text-align: left;
 	border-bottom: 1px solid #ddd;
 }
-a {
-	text-decoration:none;
+
+.alojamientos tr:hover {
+	background-color:#FFA732;
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
+#estrellas {
+	color:yellow;
+}
+
+.hotel_img {
+	width:140px;
+	height:80px;
+}
+
+/* Espacios */
+
+#jp_vid {
+	margin-left:25px;
+}
+
+#ch_map {
+	margin-left:150px;
+}
+
+#ch_vid {
+	margin-left:50px;
+}
