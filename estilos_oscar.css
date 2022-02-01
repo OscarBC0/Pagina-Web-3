@@ -1,6 +1,9 @@
 body{
 	background-image:url("images/fondo.jpg");
 }
+#imagenp {
+	margin-left:250px;
+}
 		
 /* Inicio Navegation bar*/
 ul {
