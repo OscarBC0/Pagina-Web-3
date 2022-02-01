@@ -69,12 +69,10 @@ li.dropdown {
 }
 		/* Fin Navegation bar*/
 
-
-.iprincipal{
-	width:66%;
+.tablaprincipal{
+	margin-left:250px;
+	margin-right:250px;
 }
-
-
 
 .titulo{
 	color:white;
