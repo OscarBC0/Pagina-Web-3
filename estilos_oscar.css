@@ -1,9 +1,20 @@
 body{
 	background-image:url("images/fondo.jpg");
 }
-#imagenp {
-	margin-left:70px;
-}
+
+
+.titulo{
+	color:white;
+	background-color:#FFA732;
+	text-align:center;
+	font-size:35px;
+	padding:20px 10px 20px 10px;
+	outline:2px solid #535cac;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-family:sans-serif;
+	width:66%;
+
 		
 /* Inicio Navegation bar*/
 ul {
@@ -72,19 +83,6 @@ li.dropdown {
 }
 		/* Fin Navegation bar*/
 
-
-.titulo{
-	color:white;
-	background-color:#FFA732;
-	text-align:center;
-	font-size:35px;
-	padding:20px 10px 20px 10px;
-	outline:2px solid #535cac;
-	font-weight:bold;
-	text-transform: uppercase;
-	font-family:sans-serif;
-	width:66%;
-	
 	
 }
 .descripcion{
