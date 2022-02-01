@@ -69,7 +69,10 @@ li.dropdown {
   display: block;
 }
 		/* Fin Navegation bar*/
-
+.imagenp{
+	align:center;
+	margin-top:15px;
+}
 .titulo{
 	color:white;
 	background-color:#FFA732;
@@ -81,8 +84,7 @@ li.dropdown {
 	text-transform: uppercase;
 	font-family:sans-serif;
 	width:66%;
-
-	
+	margin-top:0px;
 }
 .descripcion{
 	text-align:center;
