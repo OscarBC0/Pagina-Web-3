@@ -133,6 +133,7 @@ img:hover {
 .alojamientos {
 	border-collapse:collapse;
 	width:100%;
+	font-family: "Lucida Console", "Courier New", monospace;
 }
 .alojamientos th, td {
 	padding: 8px;
