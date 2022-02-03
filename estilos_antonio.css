@@ -72,6 +72,8 @@
 		height: 100%;
 		padding: 10px 20px;
 		border-collapse:collapse;
+		font-family: "Lucida Console", "Courier New", monospace;
+		font-size:75%;
 	}
 	table.px4 th.px2, td.px3 {
 		padding: 8px;
